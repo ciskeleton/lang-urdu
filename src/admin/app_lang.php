@@ -217,6 +217,9 @@ $lang['admin_modules_enable_all_success'] = 'تمام ماڈیولز کامیا�
 $lang['admin_modules_enable_confirm'] = 'کیا آپ واقعی ماڈیول کو فعال کرنا چاہتے ہیں: <b>%s</b>؟';
 $lang['admin_modules_enable_error'] = 'ماڈیول کو چالو کرنے میں ناکام۔';
 $lang['admin_modules_enable_success'] = 'ماڈیول کامیابی سے چالو ہو گیا۔';
+$lang['admin_modules_install_confirm'] = 'کیا آپ واقعی اس ماڈیول کو انسٹال کرنا چاہتے ہیں؟';
+$lang['admin_modules_install_error'] = 'ماڈیول انسٹال کرنے میں ناکامی۔';
+$lang['admin_modules_install_success'] = 'ماڈیول کامیابی سے انسٹال ہو گیا۔';
 $lang['admin_modules_install_tip'] = 'ماڈیولز آپ کی سائٹ میں نئی ​​خصوصیات اور فعالیت شامل کرتے ہیں۔ <a href="%s" target="_blank" rel="noopener">module ڈائریکٹری</a> میں دستیاب ماڈیولز کو براؤز کریں یا ایک کو <b>.zip</b> پیکیج کے طور پر اپ لوڈ کریں۔';
 
 /**
@@ -242,6 +245,9 @@ $lang['admin_plugins_enable_all_success'] = 'تمام پلگ ان کامیابی
 $lang['admin_plugins_enable_confirm'] = 'کیا آپ واقعی پلگ ان کو فعال کرنا چاہتے ہیں: <b>%s</b>؟';
 $lang['admin_plugins_enable_error'] = 'پلگ ان کو چالو کرنے میں ناکام۔';
 $lang['admin_plugins_enable_success'] = 'پلگ ان کامیابی سے چالو ہو گیا۔';
+$lang['admin_plugins_install_confirm'] = 'کیا آپ واقعی اس پلگ ان کو انسٹال کرنا چاہتے ہیں؟';
+$lang['admin_plugins_install_error'] = 'پلگ ان انسٹال کرنے میں ناکامی۔';
+$lang['admin_plugins_install_success'] = 'پلگ ان کامیابی سے انسٹال ہو گیا۔';
 $lang['admin_plugins_install_tip'] = 'پلگ انز موجودہ خصوصیات کو اضافی اختیارات یا انضمام کے ساتھ بڑھاتے ہیں۔ <a href="%s" target="_blank" rel="noopener">plugin ڈائریکٹری</a> سے انسٹال کریں یا <b>.zip</b> فائل اپ لوڈ کریں۔';
 
 /**
@@ -261,6 +267,9 @@ $lang['admin_themes_disable_success'] = 'تھیم کامیابی کے ساتھ �
 $lang['admin_themes_enable_confirm'] = 'کیا آپ واقعی تھیم کو چالو کرنا چاہتے ہیں: <b>%s</b>؟';
 $lang['admin_themes_enable_error'] = 'تھیم کو چالو کرنے میں ناکام۔';
 $lang['admin_themes_enable_success'] = 'تھیم کامیابی کے ساتھ فعال ہو گئی۔';
+$lang['admin_themes_install_confirm'] = 'کیا آپ واقعی اس تھیم کو انسٹال کرنا چاہتے ہیں؟';
+$lang['admin_themes_install_error'] = 'تھیم انسٹال کرنے میں ناکامی۔';
+$lang['admin_themes_install_success'] = 'تھیم کامیابی سے انسٹال ہو گئی۔';
 $lang['admin_themes_install_tip'] = 'تھیمز آپ کی سائٹ کی ظاہری شکل اور ترتیب کو تبدیل کرتے ہیں۔ <a href="%s" target="_blank" rel="noopener">theme لائبریری</a> میں سے انتخاب کریں یا اپنی خود کی انسٹال کرنے کے لیے <b>.zip</b> فائل اپ لوڈ کریں۔';
 $lang['admin_themes_none_tip'] = 'یہ ایپلیکیشن کسی تھیم کے بغیر چل رہی ہے۔ عوامی انٹرفیس کو حسبِ ضرورت بنانے کے لیے ایک تھیم انسٹال کریں۔';
 
@@ -306,12 +315,65 @@ $lang['admin_languages_enable_confirm'] = 'کیا آپ واقعی اس زبان 
 $lang['admin_languages_enable_error'] = 'زبان کو فعال کرنے میں ناکام۔';
 $lang['admin_languages_enable_error_nochange'] = 'یہ زبان پہلے ہی فعال ہے۔';
 $lang['admin_languages_enable_success'] = 'زبان کامیابی کے ساتھ فعال ہو گئی۔';
+$lang['admin_languages_install_confirm'] = 'کیا آپ واقعی اس زبان کو انسٹال کرنا چاہتے ہیں؟';
+$lang['admin_languages_install_error'] = 'زبان انسٹال کرنے میں ناکامی۔';
+$lang['admin_languages_install_success'] = 'زبان کامیابی سے انسٹال ہو گئی۔';
 $lang['admin_languages_install_tip'] = 'زبانیں آپ کی سائٹ کے انٹرفیس اور مواد کے لیے تراجم شامل کرتی ہیں۔ دستیاب زبانیں <a href="%s" target="_blank" rel="noopener">زبانوں کی ڈائریکٹری</a> میں دیکھیں یا اپنی زبان انسٹال کرنے کے لیے <b>.zip</b> پیکیج اپ لوڈ کریں۔';
 $lang['admin_languages_tip'] = 'سائٹ کی ڈیفالٹ زبان کو فعال، غیر فعال اور سیٹ کریں۔ فعال زبانیں سائٹ دیکھنے والوں کے لیے دستیاب ہیں۔';
 
 /**
  * ---------------------------------------------------------------
- * Updates & License Section
+ * Package Driver & Installation Messages
+ * ---------------------------------------------------------------
+ * Language lines for package installation, download, backup, and validation.
+ */
+$lang['package_already_exists'] = 'پیکیج پہلے سے موجود ہے۔';
+$lang['package_archive_download_failed'] = 'پیکیج آرکائیو ڈاؤن لوڈ کرنے میں ناکام۔';
+$lang['package_backup_create_error'] = 'پیکیج کا بیک اپ بنانے میں ناکامی۔';
+$lang['package_backup_dir_failed'] = 'بیک اپ ڈائرکٹری بنانے میں ناکام: %s';
+$lang['package_backup_missing'] = 'بیک اپ فائل موجود نہیں ہے۔';
+$lang['package_backup_path_error'] = 'بیک اپ فائل کا پاتھ متعین نہیں کیا جا سکا۔';
+$lang['package_backup_request_invalid'] = 'غلط بیک اپ کی درخواست۔';
+$lang['package_backup_restore_error'] = 'پیکیج کا بیک اپ ریستور کرنے میں ناکامی۔';
+$lang['package_catalog_type_unknown'] = 'نامعلوم کیٹلاگ کی قسم۔';
+$lang['package_checksum_error'] = 'پیکیج چیک سم (checksum) کی تصدیق ناکام ہو گئی۔';
+$lang['package_copy_files_error'] = 'پیکیج کی فائلوں کو منزل مقصود پر کاپی کرنے میں ناکامی۔';
+$lang['package_copy_updates_error'] = 'اپ ڈیٹ کی فائلوں کو منزل مقصود پر کاپی کرنے میں ناکامی۔';
+$lang['package_dest_dir_failed'] = 'منزل کی ڈائرکٹری بنانے میں ناکام: %s';
+$lang['package_destination_error'] = 'پیکیج کی منزل کا تعین نہیں کیا جا سکا۔';
+$lang['package_download_dir_failed'] = 'ڈاؤن لوڈ ڈائرکٹری بنانے میں ناکام: %s';
+$lang['package_download_empty'] = 'پیکیج ڈاؤن لوڈ نے خالی ردعمل واپس کیا۔';
+$lang['package_download_request_invalid'] = 'پیکیج ڈاؤن لوڈ کرنے کی غلط درخواست۔';
+$lang['package_extract_failed'] = 'ZIP کو نکالنے (extract) میں ناکام: %s';
+$lang['package_invalid_lang_files'] = 'غلط زبان — مطلوبہ ایپلیکیشن زبان کی فائلیں غائب ہیں۔';
+$lang['package_invalid_lang_structure'] = 'غلط زبان — admin اور/یا ci3 ڈائریکٹریز غائب ہیں۔';
+$lang['package_invalid_missing_info'] = 'غلط %s: "info.php" غائب ہے۔';
+$lang['package_invalid_module_structure'] = 'غلط ماڈیول — مطلوبہ config اور/یا controllers ڈائریکٹریز غائب ہیں۔';
+$lang['package_invalid_plugin_boot'] = 'غلط پلگ ان — "boot.php" غائب ہے۔';
+$lang['package_invalid_plugin_contents'] = 'غلط پلگ ان — پلگ انز میں کنٹرولرز یا ویوز (views) نہیں ہو سکتے۔';
+$lang['package_invalid_theme_boot'] = 'غلط تھیم — "boot.php" غائب ہے۔';
+$lang['package_invalid_theme_views'] = 'غلط تھیم — views ڈائریکٹری غائب ہے۔';
+$lang['package_no_root_dir'] = 'پیکیج میں کوئی روٹ ڈائریکٹری نہیں ہے۔';
+$lang['package_not_downloadable'] = 'پیکیج عوامی طور پر ڈاؤن لوڈ کے قابل نہیں ہے۔';
+$lang['package_not_in_registry'] = 'پیکیج عوامی رجسٹری میں دستیاب نہیں ہے۔';
+$lang['package_request_invalid'] = 'غلط پیکیج کی درخواست۔';
+$lang['package_rollback_request_invalid'] = 'غلط رول بیک (rollback) کی درخواست۔';
+$lang['package_root_mismatch'] = 'پیکیج آرکائیو روٹ %s سے مطابقت نہیں رکھتا';
+$lang['package_single_root_required'] = 'پیکیج میں بالکل ایک روٹ ڈائریکٹری ہونی چاہیے۔';
+$lang['package_source_error'] = 'پیکیج کے ماخذ کا تعین نہیں کیا جا سکا۔';
+$lang['package_system_core_restricted'] = 'سسٹم کے اجزاء کو پیکیج کے طور پر انسٹال نہیں کیا جا سکتا۔';
+$lang['package_temp_dir_failed'] = 'عارضی ڈائرکٹری بنانے میں ناکام: %s';
+$lang['package_type_unknown'] = 'نامعلوم پیکیج کی قسم۔';
+$lang['package_update_request_invalid'] = 'پیکیج اپ ڈیٹ کرنے کی غلط درخواست۔';
+$lang['package_update_root_mismatch'] = 'اپ ڈیٹ آرکائیو روٹ %s سے مطابقت نہیں رکھتا۔';
+$lang['package_upload_dir_failed'] = 'اپ لوڈ ڈائرکٹری بنانے میں ناکام: %s';
+$lang['package_url_invalid'] = 'پیکیج کی تقسیم کا غلط URL۔';
+$lang['package_write_failed'] = 'پیکیج %s میں لکھنے میں ناکام';
+$lang['package_zip_not_found'] = 'پیکیج ZIP موجود نہیں ہے: %s';
+
+/**
+ * ---------------------------------------------------------------
+ * Updates Section
  * ---------------------------------------------------------------
  * Language lines for updates section.
  */
